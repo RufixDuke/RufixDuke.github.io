@@ -8,41 +8,44 @@
 			href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./dashboard.css" />
-		<title>PostIt | DashBoard</title>
+		<link rel="stylesheet" href="./postit_homepage.css" />
+		<title>PostIt | Homepage</title>
     </head>
 
     <body>
+        <header>
+            <nav>
+                <div class="logo-container">
+                    <a href="postit_hompage.html">
+                        <img src="./img/POSTIT.png" alt="Logo" class="logo"
+                        width="150px" height="50px">
+                    </a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="postit_signup.html" class="sign">SIGN UP</a>
+
+                    <a href="postit_login.html" class="login">LOGIN</a>
+                </div>
+            </nav>
+        </header>
+
         <main>
-            <div class="container">
-                <div class="cont">
-                    <div class="name">
-                        <h1>Your Group List</h1>
-
-                        <a href="#">Add New Contact</a>
-                        <a href="#">Add New Group</a>
-
-                        <p>You currently don't belong to any group</p>
-                        <p>Create a group to send broadcast message</p>
-                    </div>
-                    
-                    <div class="contact"></div>
+            <div class="pimg1">
+                <div class="ptext">
+                    <span class="border">
+                        <h1>POSTIT</h1>
+                        <p>The best way to stay connected with everybody you know</p>
+                        <a href="#">POSTIT</a>
+                    </span>
                 </div>
-
-                <div>
-                    <div class="gr">
-                        <p>Name of Contact or Group</p>
-                    </div>
-
-                    <div class="ct">
-                        <h3>Contact or Group Messages</h3>
-                    </div>
-
-                    <div class="input">
-                        <textarea class="msg" name="msg" rows="2" cols="50" placeholder="Enter Text Here"></textarea>
-                    </div>
-                </div>
-
             </div>
+            
+            
         </main>
+
+        <footer>
+            <p>@ 2021 Andela</p>
+            <a href="#">More Links</a>
+        </footer>
     </body>

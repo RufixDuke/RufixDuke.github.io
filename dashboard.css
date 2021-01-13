@@ -4,93 +4,112 @@
     box-sizing: border-box;
     font-family: cursive;
     font-weight: 400;
-    background-color: #fff;
+    background-color: #ddd;
     line-height: 1.8em;
 }
 
-.container {
+nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: rgb(57, 57, 119);
-    padding: 1em;
+    justify-content: space-between;
+    background-color: green;
 }
 
-.cont {
-    padding-left: 0px;
-    margin-top: 0px;
-    height: 100%;
-    border-radius: 5px;
+.overlay {
+    position: absolute;
+    top: 0;
 }
 
-.name {
-    background-color: black;
+.logo-container {
     margin: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.name h1 {
-    color: white;
-    background-color: gray;
-    padding: 10px;
+.logo {
+    width: 120px;
+    height: 40px;
 }
 
-.name a {
+.nav-link {
+    display: flex;
+    margin: 20px;
+    padding: 10px 10px;
+    background-color: green;
+}
+
+.nav-link a {
     color: white;
-    background-color: gray;
+    background-color: transparent;
+}
+
+.sign {
     text-decoration: none;
-    display: block;
-    padding: 10px;
 }
 
-.name p {
-    color: white;
-    background-color: gray;
-    line-height: 2em;
-    padding: 10px;
-} 
-
-.contact {
-    width: 100%;
-    height: 600px;
-    background-color: rgb(77, 28, 28);
+.login {
+    text-decoration: none;
+    color: rgb(27, 121, 27);
+    font-size: 1em;
+    margin-left: 20px;
     border-radius: 5px;
 }
 
-.gr {
-    width: 100%;
-    height: 100px;
-    background-color: gray;
-    line-height: 1.5em;
-    margin-bottom: 20px;
+.pimg1 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.gr p {
+.pimg1 {
+    background-image: url(./img/post2.jpg);
+    height: 150vh;
+}
+
+.ptext {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    top: 200px;
+    text-align: center;
+    color: #000;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+.ptext .border {
+    color: rgb(62, 165, 62);
+    padding: 8px;
+}
+
+.ptext .border a {
+    text-decoration: none;
+    border: 0 solid gray;
+    border-radius: 5px;
+    background-color: rgb(35, 167, 35);
+    padding: 2px;
     color: white;
-    background-color: gray;
+    font-size: 1.2em;
+}
+
+.ptext .border a:hover {
+    background-color: green;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
     padding: 10px;
 }
 
-.ct {
-    width: 100%;
-    height: 700px;
-    background-color: gray;
+footer a {
+    text-decoration: none;
+    color: #000;
 }
 
-.ct h3 {
-    color: white;
-    background-color: gray;
-}
-
-.input {
-    margin-top: 20px;
-    padding: 10px;
-    outline: 0;
-}
-
-.msg {
-    padding: 1px;
-}
-.msg:focus {
-    outline: 0;
+footer a:hover {
+    color: green;
 }
