@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-weight: 400;
+    background-color: #fff;
+    line-height: 1.8em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(108, 211, 108);
+}
+
+header h1 {
+    color: white;
+    background-color: rgb(108, 211, 108);
+    margin-right: 10em;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+header a {
+    color: white;
+    background-color: green;
+    padding: 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 12em;
+    margin-left: 4em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1em;
+}
+
+header a:hover {
+    border: 2px solid white;
+    padding: 3px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px 20px 1em;
+    border: 1px solid green;
+    width: 90%;
+}
+
+.name ol li a{
+    text-decoration: none;
+    color: green;
+    font-size: 1.2em;
+    line-height: 4em;
+}
+
+.name ol li {
+    list-style: none;
+}
+
+.name ol {
+    border-right: 1px solid gray;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+.name h1 {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 10px;
+    margin-right: 1px;
+}
+
+.ms {
+    display: block;
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20em;
+}
+
+.msg h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.msg .id {
+    margin-left: 1em;
+    line-height: 3em;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 1.2em;
+}
+
+.msg .id:focus {
+    outline: 0;
+}
+
+.msg h2 {
+    margin-left: 1em;
+    line-height: 2em;
+}
+
+.msg .msg2 {
+    margin-left: 1em;
+    outline: 0;
+}
+
+button {
+    padding: 5px;
+    color: white;
+    background-color: rgb(32, 49, 32);
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 0 solid gray;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 7em;
+    margin-left: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover {
+    background-color: green;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 700px) {
+    header {
+        display: flex;
+        justify-content: center;  
+    }
+
+    header h1 {
+        position: absolute;
+    }
+
+    header a {
+        margin: 17px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name h1 {
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name ol li a{
+        font-size: 1em;
+        line-height: 3em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .msg {
+        margin: 1px;
+    }
+
+    .msg h1{
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .msg .id {
+        font-size: 1em;
+        margin-left: 1em;
+        line-height: 3em;
+    }
+
+    .msg h2 {
+        font-size: 1em;
+        margin-left: 1em;
+    }
+
+    .msg .msg2 {
+        margin-left: 1em;
+    }
+
+    .msg a {
+        font-size: 1em;
+        
+    }
+
+}
+
+
