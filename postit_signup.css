@@ -7,7 +7,9 @@
     background-color: #fff;
     line-height: 1.8em;
 }
-
+header {
+    width: 100%;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -17,19 +19,19 @@ nav {
 .logo-container {
     margin: 20px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .logo {
     width: 100px;
-    height: 40px;
+    height: 45px;
 }
 
 .nav-link {
     display: flex;
     margin: 20px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     padding: 10px 10px;
     background-color: green;
 }
@@ -47,14 +49,14 @@ nav {
     text-decoration: none;
     color: rgb(27, 121, 27);
     font-size: 1.3em;
-    margin-left: 20px;
+    margin-left: 10px;
     border-radius: 5px;
     background-color: #c0ebc0;
 }
 
 main {
-    margin-left: 15em;
-    margin-bottom: 4em;
+    width: 100%;
+    text-align: center;
 }
 
 main h1 {
@@ -72,7 +74,8 @@ main h1 {
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    font-size: 1em;
+    font-size: 1.2em;
+    outline: 0;
 }
 
 .user {
@@ -85,7 +88,8 @@ main h1 {
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    font-size: 1em;
+    font-size: 1.2em;
+    outline: 0;
 }
 
 .pass {
@@ -98,8 +102,9 @@ main h1 {
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 3em;
+    outline: 0;
 }
 
 main button {
@@ -110,6 +115,7 @@ main button {
     font-size: 1.2em;
     text-decoration: none;
     border-radius: 5px;
+    outline: 0;
 }
 
 main button:hover {

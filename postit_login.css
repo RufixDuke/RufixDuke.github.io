@@ -35,7 +35,6 @@ nav {
     text-decoration: none;
     color: rgb(27, 121, 27);
     font-size: 1.3em;
-    margin-left: 20px;
     border-radius: 5px;
     background-color: #c0ebc0;
     padding-bottom: 1px;
@@ -43,11 +42,10 @@ nav {
 }
 
 main {
-    margin-left: 15em;
-    margin-bottom: 9em;
+    width: 100%;
+    text-align: center;
+
 }
-
-
 
 main h1 {
     line-height: 2em;
@@ -102,10 +100,9 @@ main a {
 
 
 button {
-    padding: 2px 20px;
+    padding: 2px;
     color: white;
     background-color: rgb(32, 49, 32);
-    font-weight: bold;
     font-size: 1.2em;
     border-radius: 5px;
     border: 0 solid gray;

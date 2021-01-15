@@ -5,7 +5,7 @@ function myFunction(s) {
     let passwordValue = document.getElementById('password').value;
     // document.getElementsByClassName('mail')
     // console.log(myEmailValue, ' lllssss ', document.getElementsByClassName('mail'));
-    alert(JSON.stringify({
+    console.log(JSON.stringify({
         email: myEmailValue,
         username: usernameValue,
         password: passwordValue
@@ -29,7 +29,7 @@ function loginPage(s) {
     let passwordValue = document.getElementById('password').value;
     // document.getElementsByClassName('mail')
     // console.log(myEmailValue, ' lllssss ', document.getElementsByClassName('mail'));
-    alert(JSON.stringify({
+    console.log(JSON.stringify({
         username: usernameValue,
         password: passwordValue
     }));
