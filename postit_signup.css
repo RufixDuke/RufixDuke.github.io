@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-weight: 400;
+    background-color: #fff;
+    line-height: 1.8em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+
+.logo-container {
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 100px;
+    height: 40px;
+}
+
+.nav-link {
+    display: flex;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    background-color: green;
+}
+
+.nav-link p {
+    color: white;
+    background-color: green;
+}
+
+.nav-link a {
+    background-color: green;
+    color: white;
+}
+.login {
+    text-decoration: none;
+    color: rgb(27, 121, 27);
+    font-size: 1.3em;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #c0ebc0;
+}
+
+main {
+    margin-left: 15em;
+    margin-bottom: 4em;
+}
+
+main h1 {
+    line-height: 2em;
+    color: green;
+}
+
+.email {
+    line-height: 7em;
+}
+
+.mail {
+    line-height: 3em;
+    border: 1px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 1em;
+}
+
+.user {
+    line-height: 7em;
+}
+
+.username {
+    line-height: 3em;
+    border: 1px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 1em;
+}
+
+.pass {
+    line-height: 7em;
+}
+
+.password {
+    line-height: 3em;
+    border: 1px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 1em;
+    line-height: 3em;
+}
+
+main button {
+    padding: 5px 20px;
+    color: white;
+    background-color: rgb(32, 49, 32);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main button:hover {
+    background-color: green;
+}
+
+footer {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: green;
+}

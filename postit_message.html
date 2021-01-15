@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./postit_message.css" />
+		<title>PostIt | Send Message</title>
+    </head>
+
+    <body onload="contacts()">
+        <header>
+            <h1>POSTIT</h1>
+
+            <a href="./postit_homepage.html">LOGOUT</a>
+        </header>
+
+        <main>
+            <div class="name">
+                <h1>Your Group List</h1>
+                
+                <ol id="arr">
+                        
+                </ol>
+            </div>
+
+            <div class="ms">
+                <div class="msg">
+                    <h1>Send Broadcast Message</h1>
+
+                    <input type="text" placeholder="Group ID" class="id" id="id">
+
+                    <h2>Message</h2>
+                
+                    <textarea class="msg2" id="msg2" name="msg" rows="4" cols="50" placeholder="Enter Text Here"></textarea>
+                    
+                    <p id="pmph"></p>
+                </div>
+
+                <button onclick="messagePage()">SEND MESSAGE</button>
+            </div>
+
+            
+        </main>
+
+        <footer>
+            <p>@ 2021 Andela, Inc</p>
+        </footer>
+
+        <script src="./postit_.js"></script>
+    </body>
